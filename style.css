@@ -27,6 +27,22 @@ html, body {
     z-index: 0;
 }
 
+#sellLabel {
+    z-index: 1;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+#sellLabel p { 
+    
+}
+
 #sellButton {
     z-index: 1;
     opacity: 0.5;
