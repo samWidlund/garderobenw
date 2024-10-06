@@ -82,6 +82,15 @@ html, body {
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    #garderoben {
+        font-size: 3rem;
+    }
+    #W {
+        font-size: 7rem;
+    }
+}
+
 #navbar {
     width: 100%;
     height: 8%;
