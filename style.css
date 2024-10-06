@@ -4,6 +4,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #videoContainer {
@@ -11,7 +12,6 @@ html, body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: red;
     z-index: 0;
     border-bottom: 1px solid black;
 }
@@ -37,33 +37,34 @@ html, body {
     text-align: center;
     font-size: 5rem;
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#sellLabel p { 
-    
-}
-
-#sellButton {
-    z-index: 1;
-    opacity: 0.5;
-    border: 1px solid black;
-    border-radius: 0.2rem;
-    position: fixed;
-    width: 7%;
-    height: 7%;
+#sellLabel:hover {
+    font-size: 5.2rem;
+    cursor: pointer;
 }
 
 #navbar {
     width: 100%;
     background-color: white;
     position: fixed;
-    text-align: center;
+    text-align:start;
     border-bottom: 1px solid black;
     z-index: 1;
     opacity: 0.7;
+    padding-left: 1.1rem;
 }
 
 #secondContainer {
     width: 100%;
     height: 100vh;
+}
+
+#footer {
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    border-top: 1px solid black;
+    text-align: center;
 }
