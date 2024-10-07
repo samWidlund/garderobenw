@@ -50,6 +50,12 @@ html, body {
     text-align: center;
     font-size: 5rem;
     color: white;
+    opacity: 1; /* Start as invisible */
+    transition: opacity 1s ease; /* Smooth transition */
+}
+
+.fade-in {
+    opacity: 1; /* Final state */
 }
 
 #W {
@@ -74,12 +80,12 @@ html, body {
     font-size: 5rem;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    color: white;
 }
 
 #garderoben:hover {
     font-size: 5.2rem;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 @media (max-width: 600px) {
@@ -88,6 +94,10 @@ html, body {
     }
     #W {
         font-size: 7rem;
+    }
+
+    #garderoben:hover {
+        font-size: 3.2rem;
     }
 }
 
@@ -101,7 +111,7 @@ html, body {
     z-index: 1;
     padding-left: 1.1rem;
     background-color: white;
-    opacity: 0.3;
+    opacity: 0; /*add fade in during scroll*/
 }
 
 #secondContainer {
