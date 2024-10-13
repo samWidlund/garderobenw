@@ -215,6 +215,8 @@ body a:visited {
     backface-visibility: hidden;
     place-content: center;
     border: 2px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #bbb;
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -223,7 +225,6 @@ body a:visited {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: #bbb;
     transform: rotateY(180deg);
   }
   
