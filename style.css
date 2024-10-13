@@ -189,11 +189,12 @@ body a:visited {
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  /* .flip-card:hover .flip-card-inner {
+  .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  } */
+  }
 
-  @keyframes flip {
+  /* ROTADE ON LOAD BELOW */
+  /* @keyframes flip {
     0% {
       transform: rotateY(0deg);
     }
@@ -201,10 +202,9 @@ body a:visited {
       transform: rotateY(180deg);
     }
   }
-
   .flip-card-inner {
-    animation: flip 2s forwards; /* 2s for the duration, forwards to keep the final state */
-  }
+    animation: flip 2s forwards; /* 2s for the duration, forwards to keep the final state 
+  } */
   
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
