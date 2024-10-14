@@ -193,6 +193,11 @@ body a:visited {
     transform: rotateY(180deg);
   }
 
+  /* USE THIS FOR FLIP ON CLICK JS */
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
   /* ROTADE ON LOAD BELOW */
   /* @keyframes flip {
     0% {
