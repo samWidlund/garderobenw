@@ -13,3 +13,11 @@ window.addEventListener("scroll", function() {
         navbar.classList.remove("show");
     }
 });
+
+const flipButton = document.getElementById("flipButton");
+const flipCard = document.getElementsByClassName("flip-card");
+
+flipButton.addEventListener("click", function() {
+    flipButton.classList.add("color");
+    flipCard.classList.add("flipped");
+})

@@ -176,6 +176,10 @@ body a:visited {
     width: 50vw;
     height:50vh;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+  .flip-card.test {
+    width: 10vw;
   }
   
   /* This container is needed to position the front and back side */
@@ -189,13 +193,17 @@ body a:visited {
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
+  /* .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  } */
+
+  /* USE THIS FOR FLIP ON CLICK JS */
+  .flip-card.flipped .flip-card-inner.flipped {
     transform: rotateY(180deg);
   }
 
-  /* USE THIS FOR FLIP ON CLICK JS */
-  .flip-card.flipped .flip-card-inner {
-    transform: rotateY(180deg);
+  #flipButton.color {
+    background-color: red;
   }
 
   /* ROTADE ON LOAD BELOW */
@@ -226,6 +234,7 @@ body a:visited {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
+    background-color: red;
   }
   
   /* Style the back side */
