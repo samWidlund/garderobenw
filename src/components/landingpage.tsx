@@ -1,13 +1,11 @@
 import '../App.css'
 import logo from '../assets/garderobenwlogo-nobg.png'
 
-function landingPage() {
+export default function landingPage() {
   return (
     <div id="landing-page">
-      <img src={logo} alt="garderobenwlogo-nobg.png" />
-      <p>Curated outdoor & designer garments</p>
+      <img id='logo' src={logo} alt="garderobenwlogo-nobg.png" />
+      <p>curated outdoor & designer garments</p>
     </div>
   );
 }
-
-export default landingPage;
