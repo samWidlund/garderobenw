@@ -1,8 +1,10 @@
 import LandingPage from './components/landingpage'
+import NavBar from './components/navbar'
 
 function App() {
   return (
     <>
+      <NavBar />
       <LandingPage />
     </>
   )

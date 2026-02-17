@@ -4,7 +4,9 @@ import logo from '../assets/garderobenwlogo-nobg.png'
 export default function landingPage() {
   return (
     <div id="landing-page">
-      <img id='logo' src={logo} alt="garderobenwlogo-nobg.png" />
+      <h2>garderoben</h2>
+      <h1>W</h1>
+
       <p>curated outdoor & designer garments</p>
     </div>
   );

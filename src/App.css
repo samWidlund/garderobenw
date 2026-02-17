@@ -1,4 +1,5 @@
 * {
+  background-color: aliceblue;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,10 +7,60 @@
 
 
 #landing-page {
-  background-color: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+#landing-page p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+#landing-page h2 {
+  font-size: 4rem;
+  margin-top: 1rem;
+}
+
+#landing-page h1 {
+  font-size: 6rem;
+  margin-top: -1rem;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 1rem;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar a:active {
+  text-decoration:underline;
+}
+
+.navbar a:visited {
+  color: black;
 }
