@@ -3,7 +3,8 @@ import '../App.css'
 export default function landingPage() {
   return (
     <div id="landing-page">
-      <h1>Welcome to Garderobenw</h1>
+      <p id="garderoben">garderoben</p>
+      <p id="W">W</p>
     </div>
   );
 }
