@@ -5,62 +5,63 @@
   box-sizing: border-box;
 }
 
-
-#landing-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-#landing-page p {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-}
-
-#landing-page h2 {
-  font-size: 4rem;
-  margin-top: 1rem;
-}
-
-#landing-page h1 {
-  font-size: 6rem;
-  margin-top: -1rem;
+html, body {
+  overscroll-behavior: none;
 }
 
 #logo {
-  width: 150px;
+  width: 120px;
   height: auto;
+  padding: 0;
+  margin: 0;
 }
 
-.navbar {
+.App {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+/* landing page */
+#landing-page {
   display: flex;
-  padding: 1rem;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid black;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+
+/* navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+  width: 120px;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar .nav-links {
   display: flex;
-  gap: 1rem;
-  color: black;
+  gap: 20px;
 }
 
-.navbar a {
+.navbar a, .navbar a:visited {
   text-decoration: none;
   color: black;
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar a:active {
   text-decoration: underline;
-}
-
-.navbar a:active {
-  text-decoration:underline;
-}
-
-.navbar a:visited {
-  color: black;
 }
