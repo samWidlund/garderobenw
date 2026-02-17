@@ -1,5 +1,4 @@
 import '../App.css'
-import logo from '../assets/garderobenwlogo-nobg.png'
 
 export default function landingPage() {
   return (
