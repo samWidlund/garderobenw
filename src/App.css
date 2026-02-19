@@ -11,7 +11,7 @@
 }
 
 html, body {
-  font-family: "Inter", sans-serif;
+  font-family:monospace;
   overscroll-behavior: none;
 }
 
@@ -42,7 +42,7 @@ html, body {
 }
 
 #garderoben{
-  font-size: 10rem;
+  font-size: 16rem;
   color: black;
   z-index: 10;
   position: absolute;
@@ -52,7 +52,7 @@ html, body {
 }
 
 #W {
-  font-size: 20rem;
+  font-size: 30rem;
   color:gray;
   z-index: 9;
   position: absolute;
@@ -98,4 +98,11 @@ html, body {
 
 .navbar a:hover, .navbar a:active {
   text-decoration: underline;
+}
+
+.main-page {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  border-bottom: 1px solid black;
 }
