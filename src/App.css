@@ -1,5 +1,5 @@
 * {
-  background-color: aliceblue;
+  background-color: transparent;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -40,7 +40,7 @@ html, body {
   font-size: 16rem;
   color: black;
   z-index: 10;
-  position: absolute;
+  position: fixed;
   z-index: 10;
   margin: 0;
   background-color: transparent;
@@ -48,10 +48,11 @@ html, body {
 
 #W {
   font-size: 30rem;
+  position: fixed;
   color:gray;
   z-index: 9;
-  position: absolute;
   margin: 0;
+  background-color: transparent;
 }
 
 /* navbar */
@@ -95,9 +96,42 @@ html, body {
   text-decoration: underline;
 }
 
+/* main page */
 .main-page {
   display: flex;
   height: 100vh;
   width: 100%;
   border-bottom: 1px solid black;
+}
+
+.video-main-page {
+  display: flex;
+  height: 100vh;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background-color: red;
+  border-left: 1px solid black;
+  z-index: 0;
+}
+
+.video-main-page video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom; /* skjuter upp innehållet så toppen försvinner */
+  z-index: 1;
+}
+
+/* products */
+.product-card {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 }
