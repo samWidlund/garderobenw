@@ -5,13 +5,8 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url('src/assets/font/atwriter.ttf');
-}
-
 html, body {
-  font-family:monospace;
+  font-family:serif;
   overscroll-behavior: none;
 }
 
