@@ -198,7 +198,6 @@ html, body {
   }
 }
 
-/* phone */
 @media (max-width: 850px) {
   #garderoben {
     font-size: 8rem;
@@ -212,5 +211,21 @@ html, body {
 
   .info-main-page h1 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  #garderoben {
+    font-size: 4rem;
+    top:46dvh;
+  }
+
+  #W {
+    font-size: 10rem;
+    top: 39dvh;
+  }
+
+  .info-main-page h1 {
+    font-size: 2rem;
   }
 }
