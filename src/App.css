@@ -43,16 +43,18 @@ html, body {
   z-index: 10;
   margin: 0;
   background-color: transparent;
+  text-shadow: 2px 2px 4px black;
 }
 
 #W {
   font-size: 30rem;
-  position: fixed;
+  position: absolute;
   color:gray;
   z-index: 9;
   margin: 0;
   font-family: serif;
   background-color: transparent;
+  text-shadow: 2px 2px 2px gray;
 }
 
 /* navbar */
