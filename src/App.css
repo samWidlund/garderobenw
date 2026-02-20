@@ -33,16 +33,27 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-
-#garderoben{
-  font-size: 16rem;
+#garderoben {
+  font-size: 15rem;
   color: black;
   z-index: 10;
   position: fixed;
-  z-index: 10;
   margin: 0;
+  top: 33%;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: transparent;
   text-shadow: 2px 2px 4px black;
+  white-space: nowrap;
+  pointer-events: none; 
+}
+
+#garderoben.absolute {
+  position: absolute;
+  top: 133vh;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none; 
 }
 
 #W {
@@ -54,6 +65,7 @@ html, body {
   font-family: serif;
   background-color: transparent;
   text-shadow: 2px 2px 2px gray;
+  pointer-events: none; 
 }
 
 /* navbar */
