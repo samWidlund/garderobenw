@@ -4,7 +4,7 @@ import logo from '../assets/garderobenwlogo-nobg.png'
 export default function Navbar() {
   return (
     <nav className="navbar">
-    <img className='logo' src={logo} alt="garderobenwlogo-nobg.png" />
+    {/* <img className='logo' src={logo} alt="garderobenwlogo-nobg.png" /> */}
       <div className="shop">
         <a href="/mens">mens</a>
         <a href="/womens">womens</a>
