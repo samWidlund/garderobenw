@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="shop">
         <a href="/mens">mens</a>
         <a href="/womens">womens</a>
-        <a href="/shop">shop_all</a>        
+        <a href="/shop">shop_all</a> 
       </div>
       <div className="nav-links">
         <a href="/home">home</a>
