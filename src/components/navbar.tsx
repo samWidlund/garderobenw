@@ -1,5 +1,5 @@
 import '../App.css'
-import logo from '../assets/garderobenwlogo-nobg.png'
+// import logo from '../assets/garderobenwlogo-nobg.png'
 
 export default function Navbar() {
   return (
