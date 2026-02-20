@@ -106,7 +106,6 @@ html, body {
   display: flex;
   height: 100vh;
   width: 100%;
-  border-bottom: 1px solid black;
 }
 
 .video-main-page {
@@ -139,6 +138,16 @@ html, body {
 .info-main-page h1 {
   font-size: 5rem;
   margin: 20px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid black;
 }
 
 /* products */
