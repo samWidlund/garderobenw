@@ -6,9 +6,10 @@ export default function Navbar() {
     <nav className="navbar">
     {/* <img className='logo' src={logo} alt="garderobenwlogo-nobg.png" /> */}
       <div className="shop">
-        <a href="/mens">mens</a>
+        <a href="/shop">shop</a>
+        {/* <a href="/mens">mens</a>
         <a href="/womens">womens</a>
-        <a href="/shop">shop_all</a> 
+        <a href="/shop">shop_all</a>  */}
       </div>
       <div className="nav-links">
         <a href="/home">home</a>

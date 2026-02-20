@@ -33,6 +33,7 @@ html, body {
   align-items: center;
   justify-content: center;
 }
+
 #garderoben {
   font-size: 15rem;
   color: black;
@@ -173,4 +174,43 @@ html, body {
   align-items: center;
   justify-content: center;
   margin: 20px;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .navbar {
+    padding:10px 10px;
+  }
+
+  #garderoben {
+    font-size: 3.7rem;
+    top:46dvh;
+  }
+
+  #W {
+    font-size: 10rem;
+    top: 37dvh;
+  }
+
+  .info-main-page h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* phone */
+@media (max-width: 850px) {
+  #garderoben {
+    font-size: 8rem;
+    top:46dvh;
+  }
+
+  #W {
+    font-size: 18rem;
+    top: 36dvh;
+  }
+
+  .info-main-page h1 {
+    font-size: 3rem;
+  }
 }
