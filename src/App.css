@@ -32,7 +32,6 @@ html, body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  z-index: 0;
   border-bottom: 1px solid black;
 }
 
@@ -113,7 +112,6 @@ html, body {
   right: 0;
   background-color: red;
   border-left: 1px solid black;
-  z-index: 0;
 }
 
 .video-main-page video {
@@ -121,7 +119,6 @@ html, body {
   height: 100%;
   object-fit: cover;
   object-position: bottom; /* skjuter upp innehållet så toppen försvinner */
-  z-index: 1;
 }
 
 /* products */
